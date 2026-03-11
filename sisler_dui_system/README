@@ -1,0 +1,24 @@
+ACE Permission Setup (server.cfg)
+
+Add this to server.cfg
+
+add_ace group.leo sisler.dui.leo allow
+add_ace group.civ sisler.dui.civ allow
+
+Example assigning a player:
+
+add_principal identifier.license:YOUR_LICENSE_HERE group.leo
+ Commands
+Civilians simulate drinking
+/drink 0.05
+/drink 0.12
+Police breathalyze /breathalyze
+
+Example result:
+
+Breathalyzer Result
+BAC: 0.11 | DUI: YES
+
+ Credits
+Script: Sisler Development
+Discord: sisler0695
